@@ -56,3 +56,39 @@ H/5 * * * *
 
 (Runs every 5 minutes)
 
+## Testing and Verification
+
+Made a small change in the repository (e.g., edited README).
+
+Jenkins automatically detected the change through pollSCM and triggered a build.
+
+Verified all pipeline stages executed successfully:
+
+✅ Checkout
+
+✅ Build
+
+<img width="1433" height="785" alt="image" src="https://github.com/user-attachments/assets/939f7123-4037-43bd-9291-0c6c241e338a" />
+<img width="1918" height="786" alt="image" src="https://github.com/user-attachments/assets/2c67e735-defc-41e6-b6b2-d1f20fb8c9dd" />
+
+
+
+✅ Test
+
+✅ Notification
+
+<img width="1603" height="777" alt="image" src="https://github.com/user-attachments/assets/83f9c8d1-bce9-4406-9356-34f62be061fe" />
+
+
+
+## Results
+
+Jenkins successfully automated the build pipeline for the GitHub project.
+
+The pipeline accurately triggered on new commits.
+
+Email notifications were received for both successful and failed builds.
+
+The setup demonstrates the core DevOps CI/CD principle — continuous integration and feedback.
+
+
